@@ -1,0 +1,1 @@
+export declare const getTimezoneOffset = "\n    function getTimezoneOffset(date) {\n        const offset = date.getTimezoneOffset();\n        const sign = offset < 0 ? '+' : '-';\n        const hours = `0${Math.abs(Math.floor(offset / 60))}`.slice(-2);\n        const minutes = `0${offset % 60}`.slice(-2);\n\n        return `${sign}${hours}${minutes}`;\n    }\n";

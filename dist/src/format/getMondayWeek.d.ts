@@ -1,0 +1,1 @@
+export declare const getMondayWeek = "\n    function getMondayWeek(date) {\n        const weekDay = date.getDay() || 7;\n\n        return Math.floor((10 + getDayOfYear(date) - weekDay) / 7);\n    }\n";

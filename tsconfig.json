@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "rootDir": "ts",
+        "esModuleInterop": true,
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "declaration": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "types": [
+            "node",
+            "mocha"
+        ],
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        },
+        "lib": ["es6"]      
+    },
+    "typedocOptions": {
+        "entryPoints": ["ts/src/index.ts"],
+        "out": "docs"
+    }    
+}

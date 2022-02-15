@@ -1,0 +1,1 @@
+export declare const getUTCMondayWeek = "\n    function getUTCMondayWeek(date) {\n        const weekDay = date.getUTCDay() || 7;\n\n        return Math.floor((10 + getUTCDayOfYear(date) - weekDay) / 7);\n    }\n";
